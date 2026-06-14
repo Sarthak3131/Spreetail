@@ -1,12 +1,22 @@
-# 💸 Spreetail — Peer-to-Peer Expense Tracker & Debt Settlement Platform
+# 💸 Spreetail — Premium Peer-to-Peer Expense Ledger
+### Developed by **Simona Singh**
 
-Spreetail is a premium, production-grade peer-to-peer expense tracking and debt settlement application modeled after the core features of Splitwise. Built with a robust client-server monorepo architecture, this application supports dynamic multi-mode splitting (Equal, Unequal, Percentages, Shares), intelligent **Greedy Debt Minimization** to optimize transactions, real-time WebSocket comment threads, and instant or deferred payment settlements badged with multiple payment methods.
+Spreetail is a premium, production-grade peer-to-peer expense tracking and debt settlement application modeled after the core features of Splitwise. Built with a robust client-server monorepo architecture, this application supports dynamic multi-mode splitting (Equal, Unequal, Percentages, Shares), intelligent **Greedy Debt Minimization** to optimize transactions, real-time WebSocket comment threads per expense, and instant or deferred payment settlements badged with multiple payment methods (Venmo, UPI, Bank Transfer, PayPal, Cash, Credit Card). Designed with a striking, custom editorial off-black and champagne-gold aesthetic, Spreetail offers a highly intuitive split-screen dashboard workspace that allows roommates, travel companions, and event organizers to easily balance and settle debts.
 
 ---
 
-## 🔗 Production Links
+## 📂 Project Deliverables
 
-- **Live Demo (Frontend)**: [https://spreetail.vercel.app](https://spreetail.vercel.app)
+- **[SCOPE.md](file:///e:/LPU%20live/Spreetail/SCOPE.md)**: Dynamic CSV anomaly logs and full PostgreSQL Prisma database schema.
+- **[DECISIONS.md](file:///e:/LPU%20live/Spreetail/DECISIONS.md)**: Architectural Decision Log containing trade-offs and options considered.
+- **[IMPORT_REPORT.md](file:///e:/LPU%20live/Spreetail/IMPORT_REPORT.md)**: Seed ingestion logs, sanitization actions, and database verification state.
+- **[AI_USAGE.md](file:///e:/LPU%20live/Spreetail/AI_USAGE.md)**: Details AI tools used, key prompts, and three concrete debugging case studies.
+
+---
+
+## 🔗 Live Deployments
+
+- **Live Demo (Frontend)**: [https://spreetail-frontend.onrender.com/](https://spreetail-frontend.onrender.com/)
 - **Live API (Backend)**: [https://spreetail-backend.up.railway.app](https://spreetail-backend.up.railway.app)
 
 ---
